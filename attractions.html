@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('bgyellow1.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .logo-container {
+            background-image: url('coronbg12.png'); 
+            padding: 20px;
+            width: 100%;
+        }
+        .logo {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 50px;
+        }
+        nav ul li a {
+            background-color: #FFFF;
+            text-decoration: none;
+            color: #333;
+            padding: 15px 30px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background-color: #333;
+            color: #ec9797;
+        }
+        h1 {
+            color: #FFF;
+        }
+        p {
+            color: #000;
+        }
+        .attractions {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .attraction {
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        .attraction img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            object-fit: cover;
+        }
+        .attraction .description {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .footer {
+            color: #ffffff;
+            background-color: #333333;
+            padding: 20px;
+            position: absolute;
+            bottom: -800px;
+            width: 100%;
+            text-align: center;
+        }
+        .footer p {
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="coronseal1.png" alt="Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>               
+                <li><a href="geography.html">Geography</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Attractions</h1>
+        <div class="attractions">
+            <div class="attraction">
+                <img src="twinlagoon.jpg" alt="Twin Lagoon" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Twin Lagoon</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="walingwaling.jpg" alt="Waling-waling Island" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Waling-waling Island</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="picados.jpg" alt="Siete Picados" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Siete Picados</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="kayangan.jpg" alt="Kayangan Lake" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Kayangan Lake</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="coronisland.jpg" alt="Coron Island" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Coron Island</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="bara.jpg" alt="Barracuda Lake" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Barracuda Lake</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="mttapyas.jpg" alt="Mt. Tapyas" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Mt. Tapyas</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="banana.jpg" alt="Banana Island" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Banana Island</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="bug.jpg" alt="Bulog Dos Island" style="width: 350px; height: 200px;">
+                <div class="description">
+                    <p>Bulog Dos Island</p>
+                </div>
+            </div>
+            <!-- Add more attraction divs as needed -->
+        </div>
+    </div>
+    <div class="footer">
+        <p>All Rights Reserved &copy; Municipality of Coron</p>
+    </div>
+</body>
+</html>
